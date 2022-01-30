@@ -1,0 +1,10 @@
+pipeline {
+    agent 'local-dev'
+    stages {
+        stage('build') {
+            steps {
+                echo "build has started"
+            }
+        }
+    }
+}
